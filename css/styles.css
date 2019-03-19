@@ -75,6 +75,10 @@ img {
 }
 
 /* Header */
+.site-header {
+    background-color: #333333;
+    padding: 1rem 0 3rem 0;
+}
 .site-header.inicio {
     background-image: url(../img/header.jpg);
     background-position: center;
@@ -321,4 +325,18 @@ nav a:hover {
 .copyright a {
     text-decoration: none;
     color: #e08709;
+}
+
+/* Páginas Internas */
+.contenido-nosotros {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 2rem; 
+}
+
+.texto-nosotros blockquote {
+    font-weight: 900;
+    font-size: 2 rem;
+    margin: 0;
+    padding: 1rem 0 2rem 0;
 }
