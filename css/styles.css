@@ -30,6 +30,10 @@ h4 {
     font-size: 2.6rem;
 }
 
+img {
+    max-width: 100%;
+}
+
 /* Utilidades */
 .seccion {
     margin-top: 2rem;
@@ -104,4 +108,18 @@ nav a:hover {
 
 .icono h3 {
     text-transform: uppercase;
+}
+
+/* Anuncios */
+.container-anuncios {
+    display: flex;
+    justify-content: space-between;
+}
+
+.anuncio  {
+    flex-basis: calc(33.3% - 3rem);
+}
+
+.contenido-anuncio {
+
 }
